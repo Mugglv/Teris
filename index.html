@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/traditional.css">
+    <!-- <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script> -->
+    <title>俄罗斯方块</title>
+</head>
+<body>
+    <audio id="audio" src="sound/Kalimba.mp3" preload="auto"></audio>
+    <p>
+        <span>Score: </span>
+        <span id="score">0</span>
+    </p>
+    <canvas id="canvas" width="400px" height="600px"></canvas>
+    <p>
+        <a class="btn" id="play" onclick="play()"></a>
+        <a class="btn" id="pause" onclick="pause()"></a>
+        <a class="btn" id="replay" onclick="start()"></a>
+    </p>
+    
+    <script src="js/traditional.js"></script>
+</body>
+</html>

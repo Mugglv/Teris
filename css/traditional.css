@@ -1,0 +1,58 @@
+body{
+    background-color: #3b3d3b;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+span{
+    font-family: monospace;
+    font-size: 25px;
+    color: cornsilk;
+}
+#canvas{
+    /* background-color: cornsilk; */
+    background-color: rgba(0, 0, 0, 0.8);
+    /* margin-top: 60px; */
+}
+
+.disabled,
+.btn{
+    display: inline-block;
+    width: 58px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0 25px;
+}
+
+/* .disabled{
+    display: inline-block;
+    width: 58px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0 25px;
+} */
+
+#play{
+    
+    background-image: url('../img/btn-resume.png');
+    
+    
+}
+#pause{
+    /* display: inline-block;
+    width: 60px;
+    height: 50px; */
+    background-image: url('../img/btn-pause.png');
+    /* background-repeat: no-repeat;
+    background-size: 100%; */
+}
+#replay{
+    /* display: inline-block;
+    width: 60px;
+    height: 50px; */
+    background-image: url('../img/btn-replay.png');
+    /* background-repeat: no-repeat;
+    background-size: 100%; */
+}
